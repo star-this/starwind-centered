@@ -1,0 +1,16 @@
+@layer starwind.layout {
+    :where(sw-centered) {
+        display: block;
+        box-sizing: content-box;
+
+        inline-size: min(
+            var(--sw-centered-size, 100%),
+            var(--sw-centered-max, var(--sw-measure, 65ch))
+        );
+        max-inline-size: var(--sw-centered-max, var(--sw-measure, 65ch));
+
+        margin-inline: auto;
+        padding-inline: var(--sw-centered-gutter, var(--sw-space-s-m, 1rem));
+        min-inline-size: 0;
+    }
+}

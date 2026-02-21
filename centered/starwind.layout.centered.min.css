@@ -1,0 +1,1 @@
+@layer starwind.layout{:where(sw-centered){box-sizing:content-box;inline-size:min(var(--sw-centered-size,100%), var(--sw-centered-max,var(--sw-measure,65ch)));max-inline-size:var(--sw-centered-max,var(--sw-measure,65ch));padding-inline:var(--sw-centered-gutter,var(--sw-space-s-m,1rem));min-inline-size:0;margin-inline:auto;display:block}}
